@@ -7,7 +7,7 @@ env:
 
 jobs:
   Push image to Docker Hub using `fossabot` account.
-  See also https://docs.docker.com/docker-hub/builds/
+  # See also https://docs.docker.com/docker-hub/builds/
   build-and-push:
     name: ${{ matrix.ghc-version }}-build
     runs-on: ubuntu-latest
