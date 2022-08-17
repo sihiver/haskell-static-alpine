@@ -6,7 +6,7 @@ env:
   IMAGE_NAME: fossa/haskell-static-alpine
 
 jobs:
-  Push image to Docker Hub using `fossabot` account.
+  # Push image to Docker Hub using `fossabot` account.
   # See also https://docs.docker.com/docker-hub/builds/
   build-and-push:
     name: ${{ matrix.ghc-version }}-build
